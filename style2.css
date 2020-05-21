@@ -1,6 +1,7 @@
 /* SCHERMO INFERIORE 420px */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
+
   .row {
     width: 95%;
   }
@@ -43,5 +44,34 @@
     width: 20%;
     height: auto;
   }
+
+}
+
+@media screen and (min-width: 501px) {
+
+  .row {
+    width: 95%;
+  }
+
+  #lezioni img[src*="maps"] {
+    width: 35%;
+    height: auto;
+  }
+
+  #lezioni img[src*="screen"] {
+    width: 57%;
+    height: auto;
+  }
+
+  #steps img {
+    width: 35%;
+    height: auto;
+  }
+
+  #why img {
+    width: 15%;
+    height: auto;
+  }
+
 
 }
